@@ -1,0 +1,5 @@
+[user]
+	email = webgl-widgets@program
+	name = webgl-widgets
+
+# git config --local include.path ../.gitconfig
