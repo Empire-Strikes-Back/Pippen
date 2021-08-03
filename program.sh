@@ -17,13 +17,4 @@ main(){
     -M -m webgl-widgets.main
 }
 
-uberjar(){
-  clj \
-    -X:uberjar genie.core/process \
-    :uberjar-name out/webgl-widgets.standalone.jar \
-    :main-ns webgl-widgets.main
-  mkdir -p out/jpackage-input
-  mv out/webgl-widgets.standalone.jar out/jpackage-input/
-}
-
 "$@"
